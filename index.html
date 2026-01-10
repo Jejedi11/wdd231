@@ -5,11 +5,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+
   <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/base-larger.css">
+
+  <script defer src="scripts/navigation.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-
+  <header>
+    <img src="images/portrait.svg" alt="Profile icon" width="512px" height="512px">
+    <span>wdd231 | James Michelson</span>
+    <button id="hambtn" class="hamburger"></button>
+  </header>
+  <nav id="nav-bar" class="navigation">
+    <ul>
+      <li class="current"><a href="#">Home</a></li>
+      <li><a href="#">Chamber Project</a></li>
+      <li><a href="#">Final Project</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Home</h1>
+    <div class="about">
+      <div id="about">
+        <h3>About Me</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laborum ullam velit fugit qui omnis, eos
+          sint molestiae atque at accusantium reprehenderit iusto minima ea culpa! Eveniet magni repellendus sequi.</p>
+      </div>
+      <div id="photo">
+        <h3>Student Photo</h3>
+        <img src="images/profile.webp" alt="James Michelson">
+      </div>
+    </div>
+    <div class="courses">
+      <span>Web Certificate Courses</span>
+    </div>
+  </main>
+  <footer>
+    <div class="social">
+      <a href="https://github.com/Jejedi11" target="_blank"><img src="images/github.svg" alt="github" width="16"
+          height="16"></a>
+      <a href="www.linkedin.com/in/james-michelson-1640a6353" target="_blank"><img src="images/linkedin.svg"
+          alt="linkedin" width="16" height="16"></a>
+      <a href="https://www.facebook.com/james.michelson.5245/" target="_blank"><img src="images/facebook.svg"
+          alt="facebook" width="16" height="16"></a>
+    </div>
+    <p>Copyright (c) 2026 Author. All Rights Reserved.</p>
+    <p>last modified</p>
+  </footer>
 </body>
 
 </html>

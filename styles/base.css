@@ -1,0 +1,138 @@
+/* COLORS */
+:root {
+  --accent-1: #303036;
+  --accent-2: #30bced;
+}
+
+/* ROOT */
+* {
+  font-family: IBM Plex Sans;
+}
+
+/* HEADER */
+header {
+  display: grid;
+  grid-template-columns: 24px auto 44px;
+  padding: 5px 0 5px 10px;
+  border: solid 1px #ddd;
+  column-gap: 8px;
+  align-items: end;
+}
+
+header img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 2px;
+}
+
+header span {
+  font-size: 1.2rem;
+  color: var(--accent-1);
+}
+
+/* HAMBURGER BUTTON */
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.hamburger::before {
+  content: "\2630";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger.show::before {
+  content: "\00d7";
+}
+
+/* NAV BAR */
+.navigation {
+  display: none;
+  color: var(--accent-1);
+}
+
+.navigation.show {
+  display: block;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li.current {
+  background-color: #eee;
+}
+
+.navigation li:hover {
+  background-color: var(--accent-2);
+}
+
+.navigation a {
+  display: block;
+  padding: 0.8rem 10px;
+  text-decoration: none;
+  color: var(--accent-1);
+  border: solid 1px #ddd;
+}
+
+/* MAIN */
+h1 {
+  margin-left: 10px;
+  color: var(--accent-1);
+}
+
+/* ABOUT */
+.about {
+  display: block;
+  margin: 1rem 10px;
+}
+
+.about h3 {
+  background-color: #ddd;
+  margin-bottom: 0;
+  padding: 0.4rem;
+  text-align: center;
+}
+
+.about p {
+  background-color: #ccc;
+  margin-top: 0;
+  padding: 0.4rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #eee;
+  padding: 1rem 10px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.social a {
+  display: flex;
+  border: #ccc solid 1px;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.social a:hover {
+  background-color: #ddd;
+}
+
+.social img {
+  width: 28px;
+  height: 28px;
+}
