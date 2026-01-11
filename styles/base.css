@@ -2,6 +2,8 @@
 :root {
   --accent-1: #303036;
   --accent-2: #30bced;
+  --border: #ddd;
+  --accent-3: #fc5130;
 }
 
 /* ROOT */
@@ -14,7 +16,7 @@ header {
   display: grid;
   grid-template-columns: 24px auto 44px;
   padding: 5px 0 5px 10px;
-  border: solid 1px #ddd;
+  border: solid 1px var(--border);
   column-gap: 8px;
   align-items: end;
 }
@@ -52,6 +54,7 @@ header span {
 .navigation {
   display: none;
   color: var(--accent-1);
+  border-bottom: solid 1px var(--border);
 }
 
 .navigation.show {
@@ -77,7 +80,7 @@ header span {
   padding: 0.8rem 10px;
   text-decoration: none;
   color: var(--accent-1);
-  border: solid 1px #ddd;
+  border: solid 1px var(--border);
 }
 
 /* MAIN */
@@ -92,17 +95,85 @@ h1 {
   margin: 1rem 10px;
 }
 
-.about h3 {
+h2 {
   background-color: #ddd;
   margin-bottom: 0;
   padding: 0.4rem;
   text-align: center;
+  color: var(--accent-1);
 }
 
-.about p {
-  background-color: #ccc;
+#about p {
   margin-top: 0;
   padding: 0.4rem;
+}
+
+#about {
+  background-color: #ccc;
+}
+
+#photo {
+  background-color: #ccc;
+  text-align: center;
+}
+
+#photo img {
+  width: 80%;
+  height: auto;
+  margin: 2rem 0;
+  border: solid var(--border) 1px;
+  border-radius: 12px;
+}
+
+/* COURSES */
+.courses {
+  text-align: center;
+  margin: 1rem 10px;
+  background-color: #ccc;
+}
+
+.course-btn {
+  padding: 0.5rem;
+  display: flex;
+  column-gap: 8px;
+  justify-content: center;
+}
+
+.course-btn button {
+  height: 44px;
+  width: auto;
+  border-radius: 12px;
+  border: solid 1px var(--border);
+  cursor: pointer;
+}
+
+.course-btn button:hover {
+  background-color: var(--accent-2);
+}
+
+#courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  column-gap: 20px;
+  padding-inline: 2rem
+}
+
+#courses p {
+  background-color: var(--accent-3);
+  height: 44px;
+  border-radius: 12px;
+  align-content: center;
+  color: #fff;
+}
+
+#course-counter {
+  padding-inline: 2rem;
+}
+
+#courses p.completed {
+  background-color: var(--accent-2);
+  color: #000;
 }
 
 /* FOOTER */
@@ -112,15 +183,21 @@ footer {
   text-align: center;
 }
 
+footer span {
+  display: block;
+  padding: 0.2rem;
+}
+
 .social {
   display: flex;
   justify-content: center;
   column-gap: 8px;
+  padding-bottom: 0.5rem;
 }
 
 .social a {
   display: flex;
-  border: #ccc solid 1px;
+  border: var(--border) solid 1px;
   width: 44px;
   height: 44px;
   justify-content: center;

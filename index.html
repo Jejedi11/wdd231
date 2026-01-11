@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="styles/base-larger.css">
 
   <script defer src="scripts/navigation.js"></script>
+  <script defer src="scripts/date.js"></script>
+  <script defer src="scripts/courses.js"></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +22,9 @@
 
 <body>
   <header>
-    <img src="images/portrait.svg" alt="Profile icon" width="512px" height="512px">
+    <img src="images/portrait.svg" alt="Profile icon" width="512" height="512">
     <span>wdd231 | James Michelson</span>
-    <button id="hambtn" class="hamburger"></button>
+    <button id="hambtn" class="hamburger" name="hamburger-menu" aria-label="opens the navigation menu"></button>
   </header>
   <nav id="nav-bar" class="navigation">
     <ul>
@@ -34,19 +36,26 @@
   <main>
     <h1>Home</h1>
     <div class="about">
-      <div id="about">
-        <h3>About Me</h3>
+      <section id="about">
+        <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laborum ullam velit fugit qui omnis, eos
           sint molestiae atque at accusantium reprehenderit iusto minima ea culpa! Eveniet magni repellendus sequi.</p>
-      </div>
-      <div id="photo">
-        <h3>Student Photo</h3>
-        <img src="images/profile.webp" alt="James Michelson">
-      </div>
+      </section>
+      <section id="photo">
+        <h2>Student Photo</h2>
+        <img src="images/profile.webp" alt="James Michelson" width="500" height="499" loading="lazy">
+      </section>
     </div>
-    <div class="courses">
-      <span>Web Certificate Courses</span>
-    </div>
+    <section class="courses">
+      <h2>Web Certificate Courses</h2>
+      <div class="course-btn">
+        <button id="all" name="show-all" aria-label="Shows all courses">All Courses</button>
+        <button id="wdd" name="show-wdd" aria-label="Shows wdd courses">WDD Courses</button>
+        <button id="cse" name="show-cse" aria-label="Shows cse courses">CSE Courses</button>
+      </div>
+      <p id="course-counter"></p>
+      <div id="courses"></div>
+    </section>
   </main>
   <footer>
     <div class="social">
@@ -57,8 +66,8 @@
       <a href="https://www.facebook.com/james.michelson.5245/" target="_blank"><img src="images/facebook.svg"
           alt="facebook" width="16" height="16"></a>
     </div>
-    <p>Copyright (c) 2026 Author. All Rights Reserved.</p>
-    <p>last modified</p>
+    <span id="currentyear"></span>
+    <span id="datemodified"></span>
   </footer>
 </body>
 

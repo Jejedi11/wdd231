@@ -27,4 +27,18 @@
   .navigation ul {
     display: flex;
   }
+
+  .about {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .about h2 {
+    margin: 0;
+  }
+
+  #about {
+    margin-right: 10px;
+  }
+
 }
