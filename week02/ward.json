@@ -1,0 +1,13 @@
+{
+    "family" : "Michelson",
+    "date-moved-in" : "02/01/2022",
+    "records" : "7",
+    "visted-by-bishop" : false,
+    "members" : [
+        {
+        "name" : "Evan",
+        "gender" : "Male",
+        "dob" : "1977"      
+        }
+    ]
+}

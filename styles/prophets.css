@@ -1,0 +1,44 @@
+* {
+    font-family: "Open Sans";
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    box-shadow: 0 0 30px 1px black;
+}
+
+#cards section {
+    background-color: #8897c0;
+    text-align: center;
+    margin: 0.5rem;
+    border: 1px solid #716f6f;
+}
+
+#cards section h2 {
+    font-size: 2.5rem;
+    padding: 0.4rem 0.3rem 0.2rem;
+    margin: 0;
+}
+
+#cards section h3 {
+    margin: 0;
+    padding: 0.3rem;
+}
+
+#cards section img {
+    padding: 0.3rem;
+    border: #171717;
+}
+
+footer {
+    text-align: center;
+    height: 1rem;
+    font-size: 24px;
+    padding: 2rem;
+}
