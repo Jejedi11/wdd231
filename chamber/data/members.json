@@ -1,59 +1,59 @@
 {
 "members":[
-    {"krmc" : [ 
-        {"name":"Kingman Regional Medical Center"},
-        {"address" : ""},
-        {"phone" : "19287572101"},
-        {"url" : "https://www.azkrmc.com/"},
-        {"image" : "https://www.azkrmc.com/themes/custom/kingman/assets/images/kingman-logo-gray.png"},
-        {"level" : 3}
-    ]},
-    {"mcc":[
-        {"name":"Mohave College"},
-        {"address" : "3400 AZ-95, Bullhead City, AZ 86442"},
-        {"phone" : "19287583926"},
-        {"url" : "https://www.mohave.edu/"},
-        {"image" : "https://www.mohave.edu/assets/2025/07/MohaveCollege_Horizontal_white_430x117.png"},
-        {"level" : 3}
-    ]},
-    {"patriotEnvironmental" : [ 
-        {"name":"Patriot Environmental"},
-        {"address" : "820 E Beale St, Kingman, AZ 86401"},
-        {"phone" : "19287535046"},
-        {"url" : "https://www.patriotenvironmental.com/"},
-        {"image" : "https://www.patriotenvironmental.com/wp-content/uploads/2024/06/Patriot-Color.png"},
-        {"level" : 2}
-    ]},
-    {"copperCanyonCommunications" : [ 
-        {"name":"Copper Canyon Communications"},
-        {"address" : "4125 N Bank St, Kingman, AZ 86401"},
-        {"phone" : "19282636763"},
-        {"url" : "https://copperccaz.com/home-1"},
-        {"image" : "https://img1.wsimg.com/isteam/ip/94754c0e-295c-432f-9c2a-74dd1ac62610/Logo-01spppp-e591c44.png/:/rs=w:267,h:102,cg:true,m/cr=w:267,h:102/qt=q:95"},
-        {"level" : 2}
-    ]},
-    {"trOrr" : [ 
-        {"name":"T.R. Orr"},
-        {"address" : "3965 N Bank St, Kingman, AZ 86409"},
-        {"phone" : "19287572101"},
-        {"url" : "https://projects.tr-orr.com/secure/"},
-        {"image" : "https://s3.amazonaws.com/files.idtplans.com/portals/1212/images/TRO%20Logo%20JPEG.png"},
-        {"level" : 1}
-    ]},
-    {"calRanch" : [ 
-        {"name":"C-A-L Ranch"},
-        {"address" : "3340 E Andy Devine Ave #101, Kingman, AZ 86401"},
-        {"phone" : "19286920739"},
-        {"url" : "https://www.calranch.com/about/store-locations/kingman"},
-        {"image" : "https://www.calranch.com/globalassets/header/calranchlogo.svg"},
-        {"level" : 1}
-    ]},
-    {"ups" : [ 
-        {"name":"The UPS Store"},
-        {"address" : "3880 Stockton Hill Rd #103, Kingman, AZ 86409"},
-        {"phone" : "19286811877"},
-        {"url" : "https://locations.theupsstore.com/az/kingman/3880-stockton-hill-rd?utm_source=Yext&utm_medium=organic&utm_campaign=Listings"},
-        {"image" : "https://locations.theupsstore.com/assets/images/logo.svg"},
-        {"level" : 1}
-    ]}
+    { 
+        "name":"Kingman Regional Medical Center",
+        "address" : "3269 Stockton Hill Rd.",
+        "phone" : "19287572101",
+        "url" : "https://www.azkrmc.com/",
+        "image" : "https://www.azkrmc.com/themes/custom/kingman/assets/images/kingman-logo-gray.png",
+        "level" : 3
+    },
+    {
+        "name":"Mohave College",
+        "address" : "3400 AZ-95, Bullhead City, AZ 86442",
+        "phone" : "19287583926",
+        "url" : "https://www.mohave.edu/",
+        "image" : "https://www.mohave.edu/assets/2025/07/MohaveCollege_Horizontal_white_430x117.png",
+        "level" : 3
+    },
+    { 
+        "name":"Patriot Environmental",
+        "address" : "820 E Beale St, Kingman, AZ 86401",
+        "phone" : "19287535046",
+        "url" : "https://www.patriotenvironmental.com/",
+        "image" : "https://www.patriotenvironmental.com/wp-content/uploads/2024/06/Patriot-Color.png",
+        "level" : 2
+    },
+    { 
+        "name":"Copper Canyon Communications",
+        "address" : "4125 N Bank St, Kingman, AZ 86401",
+        "phone" : "19282636763",
+        "url" : "https://copperccaz.com/home-1",
+        "image" : "https://img1.wsimg.com/isteam/ip/94754c0e-295c-432f-9c2a-74dd1ac62610/Logo-01spppp-e591c44.png/:/rs=w:267,h:102,cg:true,m/cr=w:267,h:102/qt=q:95",
+        "level" : 2
+    },
+    { 
+        "name":"T.R. Orr",
+        "address" : "3965 N Bank St, Kingman, AZ 86409",
+        "phone" : "19287572101",
+        "url" : "https://projects.tr-orr.com/secure/",
+        "image" : "https://s3.amazonaws.com/files.idtplans.com/portals/1212/images/TRO%20Logo%20JPEG.png",
+        "level" : 1
+    },
+    { 
+        "name":"C-A-L Ranch",
+        "address" : "3340 E Andy Devine Ave #101, Kingman, AZ 86401",
+        "phone" : "19286920739",
+        "url" : "https://www.calranch.com/about/store-locations/kingman",
+        "image" : "https://www.calranch.com/globalassets/header/calranchlogo.svg",
+        "level" : 1
+    },
+    {
+        "name":"The UPS Store",
+        "address" : "3880 Stockton Hill Rd #103, Kingman, AZ 86409",
+        "phone" : "19286811877",
+        "url" : "https://locations.theupsstore.com/az/kingman/3880-stockton-hill-rd?utm_source=Yext&utm_medium=organic&utm_campaign=Listings",
+        "image" : "https://locations.theupsstore.com/assets/images/logo.svg",
+        "level" : 1
+    }
 ]}

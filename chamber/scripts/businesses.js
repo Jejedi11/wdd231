@@ -16,9 +16,9 @@ async function populateBusinesses() {
         business.innerHTML = `
         <h2>${element.name}</h2>
         <p>${element.address}</p>
-        <p>${element.phone}</p>
-        <p>${element.url}</p>
-        <img src="${element.img}" alt="${element.name}">
+        <p>+ ${element.phone[0]} (${element.phone[1]}${element.phone[2]}${element.phone[3]}) ${element.phone[4]}${element.phone[5]}${element.phone[6]} ${element.phone[7]}${element.phone[8]}${element.phone[9]}</p>
+        <a href="${element.url}">Website</a>
+        <img src="${element.image}" alt="${element.name}>
         <p>${element.level}</p>
         `;
         businessesList.appendChild(business);
