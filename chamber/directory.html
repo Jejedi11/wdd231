@@ -17,13 +17,16 @@
   <link rel="stylesheet" href="../styles/normalize.css">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/base-large.css">
-    
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
   <script defer src="scripts/businesses.js"></script>
   <script defer src="scripts/grid.js"></script>
   <script defer src="scripts/navigation.js"></script>
+  <script defer src="../scripts/date.js"></script>
 </head>
 
 <body>
@@ -36,7 +39,7 @@
     <h1>Directory</h1>
     <button id="grid-btn" aria-label="Grid toggle button"></button>
     <section class="businesses" id="businesses">
-      
+
     </section>
   </main>
   <footer>
@@ -48,8 +51,9 @@
           alt="linkedin" width="16" height="16"></a>
       <a href="https://www.facebook.com/james.michelson.5245/" target="_blank"><img src="../images/facebook.svg"
           alt="facebook" width="16" height="16"></a>
-        </section>
-    <p>Footer info</p>
+    </section>
+    <span id="currentyear"></span>
+    <span id="datemodified"></span>
   </footer>
 </body>
 
