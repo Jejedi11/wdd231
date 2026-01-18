@@ -62,6 +62,35 @@ main {
     text-align: center;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* BUSINESS PROFILE */
+
+#grid-btn {
+    display: none;
+}
+
+.businesses img {
+    width: 200px;
+    height: auto;
+    background-color: #212922;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.businesses div {
+    background-color: var(--accent2);
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.businesses a {
+    display: block;
+}
+
 /* FOOTER */
 footer {
     display: block;

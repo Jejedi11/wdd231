@@ -3,4 +3,27 @@
         max-width: 900px;
         margin: 0 auto;
     }
+    
+    .businesses.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #grid-btn {
+        display: block;
+        justify-self: center;
+        margin: 1rem;
+        background-color: var(--accent2);
+        width: 8rem;
+        height: 2rem;
+        border-radius: 2px;
+    }
+
+    #grid-btn.grid::before {
+        content: "Grid";
+    }
+    
+    #grid-btn::before {
+        content: "Column";
+    }
 }
