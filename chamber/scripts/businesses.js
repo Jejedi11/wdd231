@@ -3,14 +3,12 @@ const businessesList = document.querySelector('#businesses');
 async function getBusinesses() {
     const response = await fetch('data/members.json');
     const members = await response.json();
-    console.log(members);
     return members;
 }
 
 async function populateBusinesses() {
     let members = await getBusinesses();
     members.members.forEach((element) => {
-        console.log(element);
         let membership;
         let business = document.createElement("div");
         if (element.level == 1){
