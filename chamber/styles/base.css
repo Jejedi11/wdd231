@@ -5,6 +5,7 @@
   --accent3: #3E6259;
   --accent4: #329493;
   --accent5: #212922;
+  --nav-hover: #75A282;
 }
 
 * {
@@ -57,6 +58,34 @@ header img {
   content: "\00d7";
 }
 
+/* NAV */
+nav {
+  display: none;
+  text-align: center;
+}
+
+nav.show {
+  display: block;
+}
+
+nav a {
+  display: block;
+  background-color: var(--accent2);
+  padding: 1.3rem;
+  max-height: 44px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  background-color: var(--nav-hover);
+}
+
+.current {
+  background-color: var(--accent3);
+}
+
 /* MAIN */
 
 main {
@@ -73,6 +102,12 @@ h2 {
 
 #grid-btn {
   display: none;
+  border: none;
+}
+
+#grid-btn:hover {
+  cursor: pointer;
+  background-color: var(--nav-hover);
 }
 
 .businesses img {

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kingman Chamber of Commerce</title>
   <meta name="author" content="James Michelson">
-  <meta name="description" content="Directory of businesses that are members of the Kingman Chamber of Commerce.">
+  <meta name="description" content="Home page for the Kingman Chamber of Commerce.">
   <meta property="og:title" content="Kingman Chamber of Commerce">
   <meta property="og:description"
     content="Come and support your community, become a part of the Kingman Chamber of Commerce.">
@@ -23,8 +23,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet">
-  <script defer src="scripts/businesses.js"></script>
-  <script defer src="scripts/grid.js"></script>
   <script defer src="scripts/navigation.js"></script>
   <script defer src="../scripts/date.js"></script>
 </head>
@@ -36,17 +34,20 @@
     <button id="hambtn" class="hamburger"></button>
   </header>
   <nav>
-    <a href="index.html">Home</a>
+    <a href="index.html" class="current">Home</a>
     <a href="#">Discover</a>
-    <a href="directory.html" class="current">Business Directory</a>
+    <a href="directory.html">Business Directory</a>
     <a href="#">Join</a>
   </nav>
   <main>
-    <h1>Business Directory</h1>
-    <button id="grid-btn" aria-label="Grid toggle button"></button>
-    <section class="businesses" id="businesses">
+    <div id="hero"><img><button id="cta">Keynote Tickets</button></div>
+    <h1>Home</h1>
+    <div class="info">
+      <section class="events"></section>
+      <section class="weather"></section>
+    </div>
+    <section class="business-spotlight"></section>
 
-    </section>
   </main>
   <footer>
     <p>Kingman Chamber of Commerce</p>

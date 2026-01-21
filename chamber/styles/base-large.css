@@ -1,29 +1,52 @@
 @media only screen and (min-width: 38rem) {
-    header, main, nav, footer {
-        max-width: 900px;
-        margin: 0 auto;
-    }
-    
-    .businesses.grid {
+
+  :root {
+    --accent1: #AEF6C7;
+    --accent2: #5B8266;
+    --accent3: #3E6259;
+    --accent4: #329493;
+    --accent5: #212922;
+    --nav-hover: #75A282;
+  }
+
+  header,
+  main,
+  nav,
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .businesses.grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    }
-    
-    #grid-btn {
-        display: block;
-        justify-self: center;
-        margin: 1rem;
-        background-color: var(--accent2);
-        width: 8rem;
-        height: 2rem;
-        border-radius: 2px;
-    }
+  }
 
-    #grid-btn.grid::before {
-        content: "Grid";
-    }
-    
-    #grid-btn::before {
-        content: "Column";
-    }
+  #grid-btn {
+    display: block;
+    justify-self: center;
+    margin: 1rem;
+    background-color: var(--accent2);
+    width: 8rem;
+    height: 2rem;
+    border-radius: 2px;
+  }
+
+  #grid-btn.grid::before {
+    content: "Grid";
+  }
+
+  #grid-btn::before {
+    content: "Column";
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(accent2);
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
