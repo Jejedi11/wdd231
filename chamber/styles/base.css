@@ -71,7 +71,7 @@ nav.show {
 nav a {
   display: block;
   background-color: var(--accent2);
-  padding: 1.3rem;
+  padding: 1rem;
   max-height: 44px;
   text-decoration: none;
   color: #000;
@@ -96,6 +96,28 @@ main {
 h2 {
   margin: 0;
   padding: 0;
+}
+
+/* HERO */
+#hero img {
+  width: 100%;
+}
+
+#cta {
+  display: absolute;
+}
+
+/* INFO */
+.info {
+  display: block;
+  text-align: left;
+}
+
+.info section {
+  height: 5rem;
+  background-color: var(--accent2);
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 /* BUSINESS PROFILE */

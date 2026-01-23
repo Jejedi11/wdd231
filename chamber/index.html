@@ -25,6 +25,7 @@
     rel="stylesheet">
   <script defer src="scripts/navigation.js"></script>
   <script defer src="../scripts/date.js"></script>
+  <script defer src="scripts/events.js"></script>
 </head>
 
 <body>
@@ -40,11 +41,21 @@
     <a href="#">Join</a>
   </nav>
   <main>
-    <div id="hero"><img><button id="cta">Keynote Tickets</button></div>
+    <div id="hero"><img src="images/hero-small.webp" srcset="images/hero-small.webp 400w,
+                images/hero-medium.webp 800w" alt="Kingman AZ, Route 66" loading="lazy">
+      <button id="cta">Keynote Tickets</button>
+    </div>
     <h1>Home</h1>
     <div class="info">
-      <section class="events"></section>
-      <section class="weather"></section>
+      <section id="events">
+        <h2>Events</h2>
+      </section>
+      <section id="weather">
+        <h2>Weather</h2>
+      </section>
+      <section id="forecast">
+        <h2>Forecast</h2>
+      </section>
     </div>
     <section class="business-spotlight"></section>
 
