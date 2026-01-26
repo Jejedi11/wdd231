@@ -1,4 +1,4 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 900px) {
 
   :root {
     --accent1: #AEF6C7;
@@ -43,10 +43,29 @@
   nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: var(accent2);
+    background-color: var(--accent2);
   }
 
   .hamburger {
     display: none;
+  }
+
+  .info {
+    display: flex;
+    align-content: center;
+  }
+
+
+  #week {
+
+    display: flex;
+  }
+
+  .day {
+    margin: 0.3rem;
+  }
+
+  #weather figure {
+    margin: 0.3rem;
   }
 }

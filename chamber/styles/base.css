@@ -16,7 +16,6 @@ h1,
 h2,
 h3 {
   font-family: Tinos;
-
 }
 
 /* HEADER */
@@ -95,16 +94,31 @@ main {
 
 h2 {
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
+  text-align: left;
 }
 
 /* HERO */
+#hero {
+  position: relative;
+  display: inline-block;
+}
+
 #hero img {
   width: 100%;
+  display: block;
 }
 
 #cta {
-  display: absolute;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 75%;
+  background-color: var(--accent1);
+  padding: 1.3rem;
+  border: solid 1px var(--accent2);
+  border-radius: 12px;
+  text-decoration: none;
+  color: #000;
 }
 
 /* INFO */
@@ -123,10 +137,28 @@ h2 {
 #weather figure {
   background-color: var(--accent1);
   text-align: center;
+  margin: 0 3rem;
+  padding: 1rem;
 }
 
 #weather figcaption {
+  margin: 0;
+}
+
+/* FORECAST */
+#forecast {
+  text-align: center;
+}
+
+.day {
+  background-color: var(--accent1);
+  margin: 0.3rem 3rem;
   padding: 1rem;
+  border: solid 1px var(--accent2);
+}
+
+#forecast p {
+  margin: 0;
 }
 
 /* BUSINESS PROFILE */
@@ -157,6 +189,12 @@ h2 {
 
 .businesses a {
   display: block;
+}
+
+/* BUSINESS PROFILE */
+
+#businesses h2 {
+  text-align: center;
 }
 
 /* FOOTER */

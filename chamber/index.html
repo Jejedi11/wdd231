@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kingman Chamber of Commerce</title>
+  <title>Kingman Chamber of Commerce | Home</title>
   <meta name="author" content="James Michelson">
   <meta name="description" content="Home page for the Kingman Chamber of Commerce.">
   <meta property="og:title" content="Kingman Chamber of Commerce">
@@ -28,13 +28,14 @@
   <script defer src="scripts/events.js"></script>
   <script defer src="scripts/weather.js"></script>
   <script defer src="scripts/forecast.js"></script>
+  <script defer src="scripts/spotlight.js"></script>
 </head>
 
 <body>
   <header>
-    <img src="favicon.ico" alt="logo" width="75px" height="75px">
+    <img src="favicon.ico" alt="logo" width="75" height="75">
     <h2>Kingman Chamber of Commerce</h2>
-    <button id="hambtn" class="hamburger"></button>
+    <button id="hambtn" class="hamburger" name="hamburger" aria-label="Open Navigation menu button"></button>
   </header>
   <nav>
     <a href="index.html" class="current">Home</a>
@@ -45,7 +46,7 @@
   <main>
     <div id="hero"><img src="images/hero-small.webp" srcset="images/hero-small.webp 400w,
                 images/hero-medium.webp 800w" alt="Kingman AZ, Route 66" loading="lazy">
-      <button id="cta">Keynote Tickets</button>
+      <a href="#" id="cta">Join the Kingman Chamber of Commerce</a>
     </div>
     <h1>Home</h1>
     <div class="info">
@@ -54,46 +55,34 @@
       </section>
       <section id="weather">
         <h2>Weather</h2>
+        <figure>
+          <img id="weather-icon" src="favicon.ico" alt="Current weather">
+          <figcaption></figcaption>
+        </figure>
         <p>
           Current temperature: <span id="current-temp"></span>
         </p>
-        <figure>
-          <img id="weather-icon" src="" alt="">
-          <figcaption></figcaption>
-        </figure>
       </section>
       <section id="forecast">
         <h2>Forecast</h2>
-        <div class="day">
-          <p id="day1ab"></p>
-          <img id="day1img" src="" alt="">
-          <p id="day1temp"></p>
-        </div>
-        <div class="day">
-          <p id="day2ab"></p>
-          <img id="day2img" src="" alt="">
-          <p id="day2temp"></p>
-        </div>
-        <div class="day">
-          <p id="day3ab"></p>
-          <img id="day3img" src="" alt="">
-          <p id="day3temp"></p>
-        </div>
+        <div id="week"></div>
       </section>
     </div>
-    <section class="business-spotlight"></section>
+    <section id="businesses" class="businesses">
+      <h2>Business Spotlight</h2>
+    </section>
 
   </main>
   <footer>
     <p>Kingman Chamber of Commerce</p>
-    <section class="social">
+    <div class="social">
       <a href="https://github.com/Jejedi11" target="_blank"><img src="../images/github.svg" alt="github" width="16"
           height="16"></a>
       <a href="www.linkedin.com/in/james-michelson-1640a6353" target="_blank"><img src="../images/linkedin.svg"
           alt="linkedin" width="16" height="16"></a>
       <a href="https://www.facebook.com/james.michelson.5245/" target="_blank"><img src="../images/facebook.svg"
           alt="facebook" width="16" height="16"></a>
-    </section>
+    </div>
     <span id="currentyear"></span>
     <span id="datemodified"></span>
   </footer>
