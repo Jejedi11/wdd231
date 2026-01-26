@@ -26,6 +26,8 @@
   <script defer src="scripts/navigation.js"></script>
   <script defer src="../scripts/date.js"></script>
   <script defer src="scripts/events.js"></script>
+  <script defer src="scripts/weather.js"></script>
+  <script defer src="scripts/forecast.js"></script>
 </head>
 
 <body>
@@ -52,9 +54,31 @@
       </section>
       <section id="weather">
         <h2>Weather</h2>
+        <p>
+          Current temperature: <span id="current-temp"></span>
+        </p>
+        <figure>
+          <img id="weather-icon" src="" alt="">
+          <figcaption></figcaption>
+        </figure>
       </section>
       <section id="forecast">
         <h2>Forecast</h2>
+        <div class="day">
+          <p id="day1ab"></p>
+          <img id="day1img" src="" alt="">
+          <p id="day1temp"></p>
+        </div>
+        <div class="day">
+          <p id="day2ab"></p>
+          <img id="day2img" src="" alt="">
+          <p id="day2temp"></p>
+        </div>
+        <div class="day">
+          <p id="day3ab"></p>
+          <img id="day3img" src="" alt="">
+          <p id="day3temp"></p>
+        </div>
       </section>
     </div>
     <section class="business-spotlight"></section>

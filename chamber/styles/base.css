@@ -114,10 +114,19 @@ h2 {
 }
 
 .info section {
-  height: 5rem;
   background-color: var(--accent2);
   margin: 0.5rem;
   padding: 0.5rem;
+}
+
+/* WEATHER */
+#weather figure {
+  background-color: var(--accent1);
+  text-align: center;
+}
+
+#weather figcaption {
+  padding: 1rem;
 }
 
 /* BUSINESS PROFILE */
