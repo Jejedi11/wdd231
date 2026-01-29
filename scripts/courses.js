@@ -106,6 +106,9 @@ function listCourses(list) {
       newitem.innerHTML = `&#10003 ${element.subject} ${element.number}`;
     }
     credits += element.credits;
+    newitem.addEventListener('click', () => {
+      displayCourseDetails(element);
+    });
 
   });
   return credits
