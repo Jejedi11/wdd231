@@ -25,6 +25,7 @@
     rel="stylesheet">
   <script defer src="scripts/navigation.js"></script>
   <script defer src="../scripts/date.js"></script>
+  <script defer src="scripts/level-modals.js"></script>
 </head>
 
 <body>
@@ -41,25 +42,64 @@
   </nav>
   <main>
     <h1>Join</h1>
-<form get="" action="thankyou.html">
-<label for="fname">First Name</label>
-  <input type="text" required id="fname" title="fname" autocomplete="given-name">
-<label for="lname">Last Name</label>
-  <input type="text" required id="lname" title="lname" autocomplete="family-name">
-<label for="otitle">Title</label>
-  <input type="text" name="otitle" title="otitle" autocomplete="organization-title">
-<label for="email">Email</label>
-  <input type="email" required name="email" title="email" autocomplete="email" placeholder="someone@example.com">
-<label for="phone">Phone</label>
-  <input type="tel" required name="phone" title="phone" autocomplete="tel">
-<label for="organization">Organization</label>
-  <input type="text" required name="organization" title="organization" autocomplete="organization">
-<label for="mlevel">Membership Level</label>
-  <input type="radio" name="mlevel" title="np">
-  <input type="radio" name="mlevel" title="bronze">
-  <input type="radio" name="mlevel" title="silver">
-  <input type="radio" name="mlevel" title="gold">
-</form>
+    <div id="join-form">
+      <form get="" action="thankyou.html">
+        <h2>Join the Chamber of Commerce</h2>
+        <label> First Name<input type="text" required id="fname" title="fname" autocomplete="given-name"></label>
+        <label>Last Name
+          <input type="text" required id="lname" title="lname" autocomplete="family-name">
+        </label>
+        <label>Title
+          <input type="text" name="otitle" title="otitle" autocomplete="organization-title">
+        </label>
+        <label>Email
+          <input type="email" required name="email" title="email" autocomplete="email"
+            placeholder="someone@example.com">
+        </label>
+        <label>Phone
+          <input type="tel" required name="phone" title="phone" autocomplete="tel">
+        </label>
+        <label>Organization
+          <input type="text" required name="organization" title="organization" autocomplete="organization">
+        </label>
+        <p><strong>Membership Level:</strong></p>
+        <label class="radio">Non Profit
+          <input type="radio" name="mlevel" title="np">
+        </label>
+        <label class="radio">Bronze
+          <input type="radio" name="mlevel" title="bronze">
+        </label>
+        <label class="radio">Silver
+          <input type="radio" name="mlevel" title="silver">
+        </label>
+        <label class="radio">Gold
+          <input type="radio" name="mlevel" title="gold">
+        </label>
+        <label>Business Description<input type="textarea" title="bus-desc" name="bus-desc"></label>
+        <input type="hidden" name="timestamp" title="timestamp">
+        <button type="submit" name="submit" title="submit">Join Chamber</button>
+      </form>
+      <section id="info-cards">
+        <h2>Membership Levels</h2>
+        <div class="card">
+          <p>Non Profit</p>
+          <a id="non-profit-info">Learn More</a>
+        </div>
+        <div class="card">
+          <p>Bronze</p>
+          <a>Learn More</a>
+        </div>
+        <div class="card">
+          <p>Silver</p>
+          <a>Learn More</a>
+        </div>
+        <div class="card">
+          <p>Gold</p>
+          <a>Learn More</a>
+        </div>
+      </section>
+    </div>
+    <dialog id="non-profit">Test</dialog>
   </main>
   <footer>
     <p>Kingman Chamber of Commerce</p>

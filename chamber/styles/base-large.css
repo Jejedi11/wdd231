@@ -68,4 +68,9 @@
   #weather figure {
     margin: 0.3rem;
   }
+
+  #join-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
