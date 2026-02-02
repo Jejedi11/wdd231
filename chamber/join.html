@@ -32,7 +32,7 @@
   <header>
     <img src="favicon.ico" alt="logo" width="75" height="75">
     <h2>Kingman Chamber of Commerce</h2>
-    <button id="hambtn" class="hamburger"></button>
+    <button id="hambtn" class="hamburger" aria-label="Hamburger navigation button toggle"></button>
   </header>
   <nav>
     <a href="index.html">Home</a>
@@ -43,7 +43,7 @@
   <main>
     <h1>Join</h1>
     <div id="join-form">
-      <form get="" action="thankyou.html">
+      <form action="thankyou.html">
         <h2>Join the Chamber of Commerce</h2>
         <label> First Name<input type="text" required id="fname" title="fname" autocomplete="given-name"></label>
         <label>Last Name
@@ -75,7 +75,7 @@
         <label class="radio">Gold
           <input type="radio" name="mlevel" title="gold">
         </label>
-        <label>Business Description<input type="textarea" title="bus-desc" name="bus-desc"></label>
+        <label>Business Description<textarea title="bus-desc" name="bus-desc"></textarea></label>
         <input type="hidden" name="timestamp" title="timestamp">
         <button type="submit" name="submit" title="submit">Join Chamber</button>
       </form>

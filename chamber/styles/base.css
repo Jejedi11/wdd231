@@ -211,7 +211,8 @@ form p {
 }
 
 form label,
-input {
+input,
+textarea {
   display: block;
 }
 
@@ -233,6 +234,15 @@ form button {
 }
 
 /* MEMBERSHIP LEVEL CARDS */
+@keyframes changeColor {
+  from {
+    background-color: var(--accent2);
+  }
+
+  to {
+    background-color: var(--accent3);
+  }
+}
 
 #info-cards {
   margin: 1rem;
@@ -245,6 +255,7 @@ form button {
   padding: 0.5rem 0 2rem;
   border-radius: 12px;
   margin: 0.3rem;
+  animation: changeColor 2s ease-in-out infinite alternate;
 }
 
 .card p {
