@@ -45,21 +45,22 @@
     <div id="join-form">
       <form action="thankyou.html">
         <h2>Join the Chamber of Commerce</h2>
-        <label> First Name<input type="text" required id="fname" title="fname" autocomplete="given-name"></label>
-        <label>Last Name
-          <input type="text" required id="lname" title="lname" autocomplete="family-name">
+        <label> First Name*<input type="text" required id="fname" title="fname" name="fname"
+            autocomplete="given-name"></label>
+        <label>Last Name*
+          <input type="text" required id="lname" title="lname" name="lname" autocomplete="family-name">
         </label>
         <label>Title
           <input type="text" name="otitle" title="otitle" autocomplete="organization-title">
         </label>
-        <label>Email
+        <label>Email*
           <input type="email" required name="email" title="email" autocomplete="email"
             placeholder="someone@example.com">
         </label>
-        <label>Phone
+        <label>Phone*
           <input type="tel" required name="phone" title="phone" autocomplete="tel">
         </label>
-        <label>Organization
+        <label>Organization*
           <input type="text" required name="organization" title="organization" autocomplete="organization">
         </label>
         <p><strong>Membership Level:</strong></p>
