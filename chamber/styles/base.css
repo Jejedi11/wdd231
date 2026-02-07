@@ -82,7 +82,7 @@ nav a:hover {
 }
 
 .current {
-  background-color: var(--accent3);
+  background-color: var(--accent1);
 }
 
 /* MAIN */
@@ -240,7 +240,7 @@ form button {
   }
 
   to {
-    background-color: var(--accent3);
+    background-color: var(--accent1);
   }
 }
 
