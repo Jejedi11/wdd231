@@ -1,4 +1,39 @@
 /*Color Schema:*/
 :root {
-  --accent1:
+  --accent1: #FCAA67;
+  --accent2: #B0413E;
+}
+
+* {
+  font-family: 'IBM Plex Mono';
+}
+
+header {
+  height: 70px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#accent1 {
+  grid-column: 1 / 2;
+  background-color: var(--accent1);
+}
+
+#accent2 {
+  grid-column: 2 / -1;
+  background-color: var(--accent2);
+}
+
+#wireframe {
+  display: flex;
+}
+
+#desktop {
+  max-width: 75%;
+  height: auto;
+}
+
+#mobile {
+  max-width: 25%;
+  height: auto;
 }
