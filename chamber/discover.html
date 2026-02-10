@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kingman Chamber of Commerce | Business Directory</title>
+  <title>Kingman Chamber of Commerce | Dicover</title>
   <meta name="author" content="James Michelson">
-  <meta name="description" content="Directory of businesses that are members of the Kingman Chamber of Commerce.">
+  <meta name="description" content="Discover the Kingman Area.">
   <meta property="og:title" content="Kingman Chamber of Commerce">
   <meta property="og:description"
     content="Come and support your community, become a part of the Kingman Chamber of Commerce.">
@@ -16,41 +16,39 @@
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="../styles/normalize.css">
   <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/base-large.css">
+  <link rel="stylesheet" defer href="styles/base-large.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
+  <link rel="preconnect" defer href="https://fonts.googleapis.com">
+  <link rel="preconnect" defer href="https://fonts.gstatic.com" crossorigin>
+  <link defer
     href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
     rel="stylesheet">
-  <script defer src="scripts/businesses.js"></script>
-  <script defer src="scripts/grid.js"></script>
   <script defer src="scripts/navigation.js"></script>
   <script defer src="../scripts/date.js"></script>
+  <script type="module" src="data/places.mjs"></script>
+  <script type="module" src="scripts/discover.mjs"></script>
+  <script defer src="scripts/visitors.js"></script>
 </head>
 
 <body>
   <header>
     <img src="favicon.ico" alt="logo" width="75" height="75">
     <h2>Kingman Chamber of Commerce</h2>
-    <button id="hambtn" class="hamburger"></button>
+    <button id="hambtn" class="hamburger" aria-label="Hamburger navigation button toggle"></button>
   </header>
   <nav>
     <a href="index.html">Home</a>
-    <a href="discover.html">Discover</a>
-    <a href="directory.html" class="current">Business Directory</a>
+    <a href="discover.html" class="current">Discover</a>
+    <a href="directory.html">Business Directory</a>
     <a href="join.html">Join</a>
   </nav>
   <main>
-    <h1>Business Directory</h1>
-    <button id="grid-btn" aria-label="Grid toggle button"></button>
-    <section class="businesses" id="businesses">
-      <h2>Businesses</h2>
-
-    </section>
+    <h1>Discover</h1>
+    <div id="places"></div>
   </main>
   <footer>
     <p>Kingman Chamber of Commerce</p>
+    <p id="message"></p>
     <div class="social">
       <a href="https://github.com/Jejedi11" target="_blank"><img src="../images/github.svg" alt="github" width="16"
           height="16"></a>

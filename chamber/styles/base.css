@@ -275,6 +275,32 @@ form button {
   cursor: pointer;
 }
 
+/* DISCOVER */
+#places {
+  display: grid;
+}
+
+.place {
+  background-color: var(--accent2);
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.place h2 {
+  text-align: center;
+}
+
+.place button {
+  background-color: var(--accent1);
+  border: solid 1px var(--accent3);
+  min-height: 44px;
+  border-radius: 12px;
+}
+
+.place button:hover {
+  cursor: pointer;
+}
+
 /* FOOTER */
 footer {
   display: block;
