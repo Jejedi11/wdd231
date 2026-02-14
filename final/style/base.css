@@ -1,0 +1,113 @@
+:root {
+  --background: #0D0D0D;
+  --text: #FFFFFF;
+  --border: #ccc;
+  --accent1: #1E90FF;
+  --accent2: #00FF85;
+  --accent3: #FF0099;
+}
+
+* {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'IBM Plex Mono';
+  margin: 0;
+}
+
+/********************************************************************** HEADER ********************************************************************/
+header {
+  display: grid;
+  grid-template-columns: 80px 1fr 70px;
+  border-bottom: solid 1px var(--border);
+  align-items: center;
+  column-gap: 8px;
+}
+
+header p {
+  text-align: center;
+}
+
+header a {
+  padding: 0.1rem;
+}
+
+/********************************************************************** HAMBURGER BUTTON ********************************************************************/
+#hambtn {
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hambtn::before {
+  content: "\2630";
+}
+
+#hambtn.open::before {
+  content: "\00d7";
+}
+
+/********************************************************************** NAV ********************************************************************/
+nav {
+  display: none;
+}
+
+nav a {
+  padding: 1rem;
+  border-bottom: solid 1px var(--border);
+  text-decoration: none;
+}
+
+#home-nav {
+  border-left: solid 5px var(--accent1);
+}
+
+#distro-nav {
+  border-left: solid 5px var(--accent2);
+}
+
+#guide-nav {
+  border-left: solid 5px var(--accent3);
+
+}
+
+#home-nav.active {
+  border-left: solid 15px var(--accent1);
+}
+
+#distro-nav.active {
+  border-left: solid 15px var(--accent2);
+}
+
+#guide-nav.active {
+  border-left: solid 15px var(--accent3);
+}
+
+nav.open {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/********************************************************************** MAIN ********************************************************************/
+
+section {
+  margin: 1rem;
+  padding: 0.8rem;
+  border-left: solid 5px var(--accent1);
+}
+
+h1 {
+  margin: 1rem;
+}
+
+/********************************************************************** MAIN ********************************************************************/
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  border-top: solid 1px var(--border);
+}
