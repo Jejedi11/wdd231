@@ -1,0 +1,862 @@
+{
+  "architectures": {
+    "amd64": "Also known as \"64-bit\". Most computers made in the last 15 years use this.",
+    "x86": "Also known as \"32-bit\". If your computer is older than 15 years old, this may be a better choice.",
+    "arm": "An alternative to Intel and AMD processors. Commonly found in mobile devices, Apple silicon, and single-board computers like the Raspberry Pi."
+  },
+  "desktop-environments": {
+    "Budgie": {
+      "name": "Budgie",
+      "description": "A simple and elegant desktop environment based on Gnome, created by the Solus project",
+      "url": "https://solus-project.com/"
+    },
+    "Cinnamon": {
+      "name": "Cinnamon",
+      "description": "A modern and innovative take on the traditional desktop layout",
+      "url": "https://en.wikipedia.org/wiki/Cinnamon_(software)"
+    },
+    "Gnome": {
+      "name": "Gnome",
+      "description": "A popular and extensible system for desktop and window management",
+      "url": "https://gnome.org/gnome-3/"
+    },
+    "i3": {
+      "name": "i3",
+      "description": "One of the most popular \"Tiling Window Managers\", where windows tile, stack, and tab automatically instead of being dragged around manually",
+      "url": "https://i3wm.org/"
+    },
+    "KDE": {
+      "name": "KDE Plasma",
+      "description": "A simple and powerful widget-based desktop environment",
+      "url": "https://kde.org/plasma-desktop"
+    },
+    "LXDE": {
+      "name": "LXDE",
+      "description": "A very lightweight and resource-friendly desktop environment",
+      "url": "https://lxde.org/"
+    },
+    "LXQt": {
+      "name": "LXQt",
+      "description": "A lightweight desktop environment based on LXDE, written using the Qt widget toolkit",
+      "url": "https://lxqt.org/"
+    },
+    "NOOBS": {
+      "name": "New Out-of-Box Software (NOOBS)",
+      "description": "A special set of software to make getting started with the Raspberry Pi easy",
+      "url": "https://raspberrypi.org/downloads/noobs/"
+    },
+    "Pantheon": {
+      "name": "Pantheon",
+      "description": "A simple and fast desktop layout and collection of softwares that are similar to macOS",
+      "url": "https://en.wikipedia.org/wiki/Elementary_OS#Pantheon_desktop_environment"
+    },
+    "PIXEL": {
+      "name": "Pi Improved X-Window Environment (PIXEL)",
+      "description": "A modified version of LXDE specially made for the Raspberry Pi",
+      "url": "https://raspberrypi.org/downloads/raspbian/"
+    },
+    "Pop Shell": {
+      "name": "Pop Shell",
+      "description": "Pop Shell is a keyboard-driven layer for GNOME Shell which allows for quick and sensible navigation and management of windows",
+      "url": "https://github.com/pop-os/shell"
+    },
+    "MATE": {
+      "name": "MATE",
+      "description": "A classic and flexible take on the traditional Linux desktop",
+      "url": "https://mate-desktop.org/"
+    },
+    "Sugar": {
+      "name": "Sugar on a Stick",
+      "description": "A desktop activity platform aimed at education",
+      "url": "https://sugarlabs.org/"
+    },
+    "Xfce": {
+      "name": "Xfce",
+      "description": "A lightweight yet visually appealing desktop system",
+      "url": "https://xfce.org/"
+    },
+    "No Desktop Environment": {
+      "name": "No Desktop Environment",
+      "description": "This distro doesn't include a desktop environment. When you boot it up for the first time, there will only be a command prompt.",
+      "url": null
+    }
+  },
+  "distros": [
+    {
+      "name": "AlmaLinux",
+      "full-name": "AlmaLinux OS",
+      "primary-color": "#0f4266",
+      "url": "https://almalinux.org/",
+      "torrent-download-page-url": "https://mirrors.almalinux.org/isos.html",
+      "description": "A very stable distro that's made from the source code of Red Hat Enterprise Linux (RHEL) and inspired by CentOS",
+      "font-logos-icon": "fl-almalinux",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:e1b6e026965cc3bfcc0729dd9e2df73939e912b7&dn=AlmaLinux-10.0-x86_64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/10/isos/x86_64/",
+          "file-size": 1695
+        },
+        {
+          "arch": "arm",
+          "version": "10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:81458cf798b843eabae5b96094e33daf11ba2a67&dn=AlmaLinux-10.0-aarch64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/10/isos/aarch64/",
+          "file-size": 1707
+        },
+        {
+          "arch": "amd64",
+          "version": "9.6",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:9dd71c356ea7c1d3f0330f3725a290efeed83894&dn=AlmaLinux-9.6-x86_64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/9.6/isos/x86_64/",
+          "file-size": 1687
+        },
+        {
+          "arch": "arm",
+          "version": "9.6",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:3c99e5ed13655b02aaff1a670e76999fdadb8678&dn=AlmaLinux-9.6-aarch64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/9.6/isos/aarch64/",
+          "file-size": 1699
+        },
+        {
+          "arch": "amd64",
+          "version": "8.10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:3a0e9229598866fc0b770149a9300605fdfaa2c6&dn=AlmaLinux-8.10-x86_64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/8.10/isos/x86_64/",
+          "file-size": 1696
+        },
+        {
+          "arch": "arm",
+          "version": "8.10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:6d53245d6fc7be1c8c5547cfb9044666fcae5e6a&dn=AlmaLinux-8.10-aarch64",
+          "direct-download-url": "https://repo.almalinux.org/almalinux/8.10/isos/aarch64/",
+          "file-size": 1708
+        }
+      ],
+      "trackers": []
+    },
+    {
+      "name": "Arch",
+      "full-name": "Arch Linux",
+      "primary-color": "#1793d1",
+      "url": "https://www.archlinux.org/",
+      "torrent-download-page-url": "https://www.archlinux.org/releng/releases/",
+      "description": "A very advanced and very customizable operating system where you need to choose and install most pieces of the software yourself",
+      "font-logos-icon": "fl-archlinux",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "2026.02.01",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:8e3f4283d1c8360d2f18544a8b166813086675a1&dn=archlinux-2026.02.01-x86_64.iso",
+          "direct-download-url": "https://mirrors.kernel.org/archlinux/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
+          "file-size": 1550024704
+        }
+      ],
+      "trackers": [
+        "udp://tracker.archlinux.org:6969",
+        "http://tracker.archlinux.org:6969/announce"
+      ]
+    },
+    {
+      "name": "Debian",
+      "full-name": "Debian Live",
+      "primary-color": "#a80030",
+      "url": "https://debian.org/",
+      "torrent-download-page-url": "https://cdimage.debian.org/debian-cd/current-live/",
+      "description": "An incredibly stable operating system with a vast library of software",
+      "font-logos-icon": "fl-debian",
+      "recommended-version-index": 1,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "13.3.0",
+          "desktop-environment": "Cinnamon",
+          "magnet-url": "magnet:?xt=urn:btih:91de08083c472b0f86117f3c3fb381a38024b0a2&dn=debian-live-13.3.0-amd64-cinnamon.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.3.0-amd64-cinnamon.iso",
+          "file-size": 4110417920
+        },
+        {
+          "arch": "amd64",
+          "version": "13.3.0",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:e01c9226ec885be1f829f459436cc9e01a2cf9ba&dn=debian-live-13.3.0-amd64-gnome.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.3.0-amd64-gnome.iso",
+          "file-size": 4102389760
+        },
+        {
+          "arch": "amd64",
+          "version": "13.3.0",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:2073c407bf520de987a4a3346b6371d1912a27ca&dn=debian-live-13.3.0-amd64-kde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.3.0-amd64-kde.iso",
+          "file-size": 4182016000
+        },
+        {
+          "arch": "amd64",
+          "version": "13.3.0",
+          "desktop-environment": "LXDE",
+          "magnet-url": "magnet:?xt=urn:btih:f4680476b05fb92337991cdc1accb66202ff22f1&dn=debian-live-13.3.0-amd64-lxde.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.3.0-amd64-lxde.iso",
+          "file-size": 3797270528
+        },
+        {
+          "arch": "amd64",
+          "version": "13.3.0",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:f8a845580a3e06b5150e9263fb1ea8b72c9873c5&dn=debian-live-13.3.0-amd64-lxqt.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.3.0-amd64-lxqt.iso",
+          "file-size": 3989078016
+        },
+        {
+          "arch": "amd64",
+          "version": "13.3.0",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:1faba8a54bf5b149fc39a480f75a6aaede67def9&dn=debian-live-13.3.0-amd64-mate.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.3.0-amd64-mate.iso",
+          "file-size": 3959422976
+        },
+        {
+          "arch": "amd64",
+          "version": "13.3.0",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:78a7454d970c5fe68f14859475a3ce5f5335c025&dn=debian-live-13.3.0-amd64-standard.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.3.0-amd64-standard.iso",
+          "file-size": 2018148352
+        },
+        {
+          "arch": "amd64",
+          "version": "13.3.0",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:5af024707f56e2dce4304760faa67e6ed779da77&dn=debian-live-13.3.0-amd64-xfce.iso",
+          "direct-download-url": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-13.3.0-amd64-xfce.iso",
+          "file-size": 3825205248
+        }
+      ],
+      "trackers": [
+        "http://bttracker.debian.org:6969/announce"
+      ]
+    },
+    {
+      "name": "Elementary",
+      "full-name": "Elementary OS",
+      "primary-color": "#3689e6",
+      "url": "https://elementary.io/",
+      "torrent-download-page-url": "https://elementary.io/",
+      "description": "A very polished and cohesive distro, with a layout that vaguely resembles macOS",
+      "font-logos-icon": "fl-elementary",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "8.1",
+          "desktop-environment": "Pantheon",
+          "magnet-url": "magnet:?xt=urn:btih:addc43b83201d733d7558e431b692c10e2f53f84&dn=elementaryos-8.1-stable-amd64.20251211.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-8.1-stable-amd64.20251211.iso",
+          "file-size": 3315400704
+        },
+        {
+          "arch": "arm",
+          "version": "8.1",
+          "desktop-environment": "Pantheon",
+          "magnet-url": "magnet:?xt=urn:btih:b52b2a0195015e351db1ac1183f5d9263db9a254&dn=elementaryos-8.1-stable-arm64.20251211.iso",
+          "direct-download-url": "https://nyc3.dl.elementary.io/download/{{base64time}}/elementaryos-8.1-stable-arm64.20251211.iso",
+          "file-size": 3153924096
+        }
+      ],
+      "trackers": []
+    },
+    {
+      "name": "Fedora",
+      "full-name": "Fedora Workstation",
+      "primary-color": "#3c6eb4",
+      "url": "https://fedoraproject.org/",
+      "torrent-download-page-url": "https://torrent.fedoraproject.org/",
+      "description": "A popular and frequently-updated distro used by Red Hat as a testing ground for their enterprise Linux product, Red Hat Enterprise Linux (RHEL)",
+      "font-logos-icon": "fl-fedora",
+      "recommended-version-index": 2,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:ad614d371f10953e82cc2665b19e4d4c381877c9&dn=Fedora-Budgie-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-Budgie-Live-43-1.6.x86_64.iso",
+          "file-size": 2940565504
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "Cinnamon",
+          "magnet-url": "magnet:?xt=urn:btih:769425ee6864535fa51bbe4f4f33197d2caa1f39&dn=Fedora-Cinnamon-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-Cinnamon-Live-x86_64-43-1.6.iso",
+          "file-size": 2974912512
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:6a5c4ee5564b86155ae9ff387cd6c3fcad153a92&dn=Fedora-Workstation-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso",
+          "file-size": 2742190080
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "i3",
+          "magnet-url": "magnet:?xt=urn:btih:b48eadc12f4470f6ae68d0fffccb690ea7f829c4&dn=Fedora-i3-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-i3-Live-43-1.6.x86_64.iso",
+          "file-size": 2348883968
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:3290eb9c2c0884baf0afefbf052eaa9f33d7c828&dn=Fedora-KDE-Desktop-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-KDE-Desktop-Live-43-1.6.x86_64.iso",
+          "file-size": 3265843200
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "LXDE",
+          "magnet-url": "magnet:?xt=urn:btih:8de068ff160051c85b130dc70e16499b9f853803&dn=Fedora-LXDE-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-LXDE-Live-x86_64-43-1.6.iso",
+          "file-size": 2186156032
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:bbd566c5f6379bd8a2865a28c8e6739c8d382020&dn=Fedora-LXQt-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-LXQt-Live-43-1.6.x86_64.iso",
+          "file-size": 2305206272
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:9c40057a9de24ab24078689971b2a3353af876fa&dn=Fedora-MATE_Compiz-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-MATE_Compiz-Live-x86_64-43-1.6.iso",
+          "file-size": 2956918784
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:3fdaefabc0e1a253608520e8f81fd30867caecc6&dn=Fedora-Server-dvd-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Server/x86_64/iso/Fedora-Server-dvd-x86_64-43-1.6.iso",
+          "file-size": 3484483584
+        },
+        {
+          "arch": "arm",
+          "version": "43",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:e41aa49d4520cfd669e892243c8d136166e0d7b3&dn=Fedora-Server-dvd-aarch64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Server/aarch64/iso/Fedora-Server-dvd-aarch64-43-1.6.iso",
+          "file-size": 3358326784
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "Sugar",
+          "magnet-url": "magnet:?xt=urn:btih:8d32efd426d010742bde4f9d534e6beeeced548a&dn=Fedora-SoaS-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-SoaS-Live-43-1.6.x86_64.iso",
+          "file-size": 2231660544
+        },
+        {
+          "arch": "amd64",
+          "version": "43",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:452f51bb1e099afa37ab94c7cf0c288f0b5ca264&dn=Fedora-Xfce-Live-x86_64-43",
+          "direct-download-url": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-Xfce-Live-43-1.6.x86_64.iso",
+          "file-size": 2816727040
+        }
+      ],
+      "trackers": [
+        "http://torrent.fedoraproject.org:6969/announce"
+      ]
+    },
+    {
+      "name": "Kali",
+      "full-name": "Kali Linux",
+      "primary-color": "#527d97",
+      "url": "https://www.kali.org/",
+      "torrent-download-page-url": "https://www.kali.org/get-kali/",
+      "description": "A Debian-based distribution with a collection of security and forensics tools",
+      "font-logos-icon": "fl-kali-linux",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "2025.3",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:920dcb9268b2e20fbe0f0bd9a4de82188ce28033&dn=kali-linux-2025.3-installer-amd64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2025.3/kali-linux-2025.3-installer-amd64.iso",
+          "file-size": 4597125120
+        },
+        {
+          "arch": "arm",
+          "version": "2025.3 Apple Silicon",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:1ece73cdf27ed85cdfc0ca9d583ec996e2d5f26f&dn=kali-linux-2025.3-installer-arm64.iso",
+          "direct-download-url": "https://kali.download/base-images/kali-2025.3/kali-linux-2025.3-installer-arm64.iso",
+          "file-size": 3866603520
+        }
+      ],
+      "trackers": [
+        "http://tracker.kali.org:6969/announce",
+        "udp://tracker.kali.org:6969/announce"
+      ]
+    },
+    {
+      "name": "Linux Mint",
+      "full-name": "Linux Mint",
+      "primary-color": "#87cf3e",
+      "url": "https://linuxmint.com/",
+      "torrent-download-page-url": "https://linuxmint.com/download.php",
+      "description": "An Ubuntu derivative, focused on ease of use and comfort for someone who is new to Linux",
+      "font-logos-icon": "fl-linuxmint",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "22.3",
+          "desktop-environment": "Cinnamon",
+          "magnet-url": "magnet:?xt=urn:btih:2fee37827d0b6dc81372a7affcd1e3dcb4110e64&dn=linuxmint-22.3-cinnamon-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso",
+          "file-size": 3091660800
+        },
+        {
+          "arch": "amd64",
+          "version": "22.3",
+          "desktop-environment": "MATE",
+          "magnet-url": "magnet:?xt=urn:btih:50fca958b19977ef419a53c27839016c9f1f03d1&dn=linuxmint-22.3-mate-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.3/linuxmint-22.3-mate-64bit.iso",
+          "file-size": 3134275584
+        },
+        {
+          "arch": "amd64",
+          "version": "22.3",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:feb1bcec2a7c7ea288d0d8542796261cdd13cb61&dn=linuxmint-22.3-xfce-64bit.iso",
+          "direct-download-url": "https://mirrors.kernel.org/linuxmint/stable/22.3/linuxmint-22.3-xfce-64bit.iso",
+          "file-size": 3033710592
+        }
+      ],
+      "trackers": []
+    },
+    {
+      "name": "Manjaro",
+      "full-name": "Manjaro",
+      "primary-color": "#34be5b",
+      "url": "https://manjaro.org",
+      "torrent-download-page-url": "https://manjaro.org/products",
+      "description": "An intermediate distro, based on Arch Linux, that combines the advanced Arch base with some out-of-the-box configurations and automation",
+      "font-logos-icon": "fl-manjaro",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "26.0.2",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:0c6969711a35a9abf43b48ba2255666e3b75858c&dn=manjaro-gnome-26.0.2-260206-linux618.iso",
+          "direct-download-url": "https://download.manjaro.org/gnome/26.0.2/manjaro-gnome-26.0.2-260206-linux618.iso",
+          "file-size": 5557530624
+        },
+        {
+          "arch": "amd64",
+          "version": "26.0.2",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:a440efb9aea1a37fee785eb6dcfe9977e1e2b8d9&dn=manjaro-kde-26.0.2-260206-linux618.iso",
+          "direct-download-url": "https://download.manjaro.org/kde/26.0.2/manjaro-kde-26.0.2-260206-linux618.iso",
+          "file-size": 5706516480
+        },
+        {
+          "arch": "amd64",
+          "version": "26.0.2",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:bfc1a4e8f932d8841673bf6dea6122301c6d1846&dn=manjaro-xfce-26.0.2-260206-linux618.iso",
+          "direct-download-url": "https://download.manjaro.org/xfce/26.0.2/manjaro-xfce-26.0.2-260206-linux618.iso",
+          "file-size": 5405394944
+        }
+      ],
+      "trackers": []
+    },
+    {
+      "name": "Pop!_OS",
+      "full-name": "Pop!_OS",
+      "primary-color": "#ffa300",
+      "url": "https://pop.system76.com/",
+      "torrent-download-page-url": null,
+      "description": "Pop!_OS is designed for fast navigation, easy workspace organization, and fluid, convenient workflow",
+      "font-logos-icon": "fl-pop-os",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "22.04 (Intel/AMD)",
+          "desktop-environment": "Pop Shell",
+          "magnet-url": null,
+          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/intel/51/pop-os_22.04_amd64_intel_51.iso",
+          "file-size": 2676490240
+        },
+        {
+          "arch": "amd64",
+          "version": "22.04 (Nvidia)",
+          "desktop-environment": "Pop Shell",
+          "magnet-url": null,
+          "direct-download-url": "https://iso.pop-os.org/22.04/amd64/nvidia/51/pop-os_22.04_amd64_nvidia_51.iso",
+          "file-size": 3064233984
+        },
+        {
+          "arch": "amd64",
+          "version": "22.04 (Raspberry Pi 4)",
+          "desktop-environment": "Pop Shell",
+          "magnet-url": null,
+          "direct-download-url": "https://iso.pop-os.org/22.04/arm64/raspi/4/pop-os_22.04_arm64_raspi_4.img.xz",
+          "file-size": 2590176812
+        }
+      ],
+      "trackers": []
+    },
+    {
+      "name": "Raspberry Pi OS",
+      "full-name": "Raspberry Pi OS",
+      "primary-color": "#c51a4a",
+      "url": "https://www.raspberrypi.com/software/operating-systems/",
+      "torrent-download-page-url": "https://www.raspberrypi.com/software/operating-systems/",
+      "description": "The operating system created specifically for the Raspberry Pi single-board computer, based on Debian",
+      "font-logos-icon": "fl-raspberry-pi",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "arm",
+          "version": "2025-12-04",
+          "desktop-environment": "PIXEL",
+          "magnet-url": "magnet:?xt=urn:btih:1ed9dcffe22614cca33585e72203206f856d283b&dn=2025-12-04-raspios-trixie-arm64.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2025-12-04/2025-12-04-raspios-trixie-arm64.img.xz",
+          "file-size": 1327702860
+        },
+        {
+          "arch": "arm",
+          "version": "2025-12-04 with Recommended Software",
+          "desktop-environment": "PIXEL",
+          "magnet-url": "magnet:?xt=urn:btih:f8a79cf4c2d703620d8bc7545c92ac5e79b7144e&dn=2025-12-04-raspios-trixie-arm64-full.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_full_arm64/images/raspios_full_arm64-2025-12-04/2025-12-04-raspios-trixie-arm64-full.img.xz",
+          "file-size": 2017317064
+        },
+        {
+          "arch": "arm",
+          "version": "2025-12-04",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:f6b97c2645b692600706c6c31ee3d0e208fdc12b&dn=2025-12-04-raspios-trixie-arm64-lite.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2025-12-04/2025-12-04-raspios-trixie-arm64-lite.img.xz",
+          "file-size": 511063968
+        },
+        {
+          "arch": "arm",
+          "version": "2025-12-04 (32-Bit)",
+          "desktop-environment": "PIXEL",
+          "magnet-url": "magnet:?xt=urn:btih:f243c72bba465e85ebe9d0085695e98376ded2a7&dn=2025-12-04-raspios-trixie-armhf.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_armhf/images/raspios_armhf-2025-12-04/2025-12-04-raspios-trixie-armhf.img.xz",
+          "file-size": 1261761692
+        },
+        {
+          "arch": "arm",
+          "version": "2025-12-04 with Recommended Software (32-Bit)",
+          "desktop-environment": "PIXEL",
+          "magnet-url": "magnet:?xt=urn:btih:a069c3c133e30d51030424aa013ae01718d12430&dn=2025-12-04-raspios-trixie-armhf-full.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_full_armhf/images/raspios_full_armhf-2025-12-04/2025-12-04-raspios-trixie-armhf-full.img.xz",
+          "file-size": 1973104052
+        },
+        {
+          "arch": "arm",
+          "version": "2025-12-04 (32-Bit)",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:bb0a2f1ca27274168f47136b7535adc12597718b&dn=2025-12-04-raspios-trixie-armhf-lite.img.xz",
+          "direct-download-url": "https://downloads.raspberrypi.com/raspios_lite_armhf/images/raspios_lite_armhf-2025-12-04/2025-12-04-raspios-trixie-armhf-lite.img.xz",
+          "file-size": 521156000
+        }
+      ],
+      "trackers": [
+        "http://tracker.raspberrypi.org:6969/announce"
+      ]
+    },
+    {
+      "name": "Rocky Linux",
+      "full-name": "Rocky Linux",
+      "primary-color": "#10b981",
+      "url": "https://rockylinux.org/",
+      "torrent-download-page-url": "https://rockylinux.org/download",
+      "description": "A very stable distro that's made from the source code of Red Hat Enterprise Linux (RHEL) and inspired by CentOS",
+      "font-logos-icon": "fl-rocky-linux",
+      "recommended-version-index": 0,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:c4ba64904114cb73dd6f0b6548b0611c2af8e1f1&dn=Rocky-10.0-x86_64-dvd1",
+          "direct-download-url": "https://download.rockylinux.org/pub/rocky/10/isos/x86_64/Rocky-10.0-x86_64-dvd1.iso",
+          "file-size": 7660371968
+        },
+        {
+          "arch": "arm",
+          "version": "10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:9fda896dda6c431a13d0f3c7a4d8d34155ae2144&dn=Rocky-10.0-aarch64-dvd1",
+          "direct-download-url": "https://download.rockylinux.org/pub/rocky/10/isos/aarch64/Rocky-10.0-aarch64-dvd1.iso",
+          "file-size": 7135100928
+        },
+        {
+          "arch": "amd64",
+          "version": "9.6",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:a813c3a79fd889b6b66a647a9edd73fa049275e9&dn=Rocky-9.6-x86_64-dvd",
+          "direct-download-url": "https://download.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9.6-x86_64-dvd.iso",
+          "file-size": 12851544064
+        },
+        {
+          "arch": "arm",
+          "version": "9.6",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:b46c3050568773973e8d31bb3c8c55d25bde81a3&dn=Rocky-9.6-aarch64-dvd",
+          "direct-download-url": "https://download.rockylinux.org/pub/rocky/9/isos/aarch64/Rocky-9.6-aarch64-dvd.iso",
+          "file-size": 10753343488
+        }
+      ],
+      "trackers": []
+    },
+    {
+      "name": "Ubuntu",
+      "full-name": "Ubuntu",
+      "primary-color": "#e95420",
+      "url": "https://ubuntu.com/",
+      "torrent-download-page-url": "https://www.ubuntu.com/download/alternative-downloads#bittorrent",
+      "description": "One of the most popular choices. A stable and widely-supported distro.",
+      "font-logos-icon": "fl-ubuntu",
+      "recommended-version-index": 3,
+      "versions": [
+        {
+          "arch": "amd64",
+          "version": "24.04.3",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:30a58da32e6b65b5b79f155cc3871a5921175816&dn=ubuntu-budgie-24.04.3-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.3-desktop-amd64.iso",
+          "file-size": 4317884416
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:dae4b710b9dad11d21feb4c9c4b11584b7afb63d&dn=ubuntu-budgie-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04.4-desktop-amd64.iso",
+          "file-size": 4402178048
+        },
+        {
+          "arch": "amd64",
+          "version": "25.10",
+          "desktop-environment": "Budgie",
+          "magnet-url": "magnet:?xt=urn:btih:6cf22be1065c8a5c09fc5ad30127f05e1b57d85a&dn=ubuntu-budgie-25.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.10/release/ubuntu-budgie-25.10-desktop-amd64.iso",
+          "file-size": 3633033216
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.3",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:d160b8d8ea35a5b4e52837468fc8f03d55cef1f7&dn=ubuntu-24.04.3-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.3-desktop-amd64.iso",
+          "file-size": 6345887744
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.3",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:a1dfefec1a9dd7fa8a041ebeeea271db55126d2f&dn=ubuntu-24.04.3-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.3-live-server-amd64.iso",
+          "file-size": 3303444480
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:01c137287d6f0ed05a56742dae794f632c79ff3d&dn=ubuntu-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-desktop-amd64.iso",
+          "file-size": 6655619072
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:62a4d9e139f3315f8716bcccca0cc984a9809da1&dn=ubuntu-24.04.4-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-live-server-amd64.iso",
+          "file-size": 3405469696
+        },
+        {
+          "arch": "amd64",
+          "version": "25.10",
+          "desktop-environment": "Gnome",
+          "magnet-url": "magnet:?xt=urn:btih:c8295ce630f2064f08440db1534e4992cfe4862a&dn=ubuntu-25.10-desktop-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/25.10/ubuntu-25.10-desktop-amd64.iso",
+          "file-size": 5702520832
+        },
+        {
+          "arch": "amd64",
+          "version": "25.10",
+          "desktop-environment": "No Desktop Environment",
+          "magnet-url": "magnet:?xt=urn:btih:ccbd47a30a5a13a5260295e4bd65c038244e9df0&dn=ubuntu-25.10-live-server-amd64.iso",
+          "direct-download-url": "https://releases.ubuntu.com/25.10/ubuntu-25.10-live-server-amd64.iso",
+          "file-size": 2283360256
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.3",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:51fe0a3e0f53991d5e38aa4571368797f45e0e9e&dn=kubuntu-24.04.3-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.3-desktop-amd64.iso",
+          "file-size": 4560015360
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:299671d28121049a9265be9062d503c4d8402cfb&dn=kubuntu-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04.4-desktop-amd64.iso",
+          "file-size": 4796542976
+        },
+        {
+          "arch": "amd64",
+          "version": "25.10",
+          "desktop-environment": "KDE",
+          "magnet-url": "magnet:?xt=urn:btih:92b187cdfc4d926a13e7620d44bd18695f0150fb&dn=kubuntu-25.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso",
+          "file-size": 4942229504
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.3",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:8fee4f29c900f23bb79beae5dbb1327ab0a13f4e&dn=lubuntu-24.04.3-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.3-desktop-amd64.iso",
+          "file-size": 3388037120
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:c84b227d26b6c05f6ab92f5073d18a9cb84dacd6&dn=lubuntu-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04.4-desktop-amd64.iso",
+          "file-size": 3452508160
+        },
+        {
+          "arch": "amd64",
+          "version": "25.10",
+          "desktop-environment": "LXQt",
+          "magnet-url": "magnet:?xt=urn:btih:1235d8b8e4e0314c80ddd39c755d5582803c9609&dn=lubuntu-25.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/lubuntu/releases/25.10/release/lubuntu-25.10-desktop-amd64.iso",
+          "file-size": 3457515520
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.3",
+          "desktop-environment": "Mate",
+          "magnet-url": "magnet:?xt=urn:btih:d05715a53b0ae9afec3ebcbcc2a5d10c7c55e2f8&dn=ubuntu-mate-24.04.3-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.3-desktop-amd64.iso",
+          "file-size": 4444039168
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Mate",
+          "magnet-url": "magnet:?xt=urn:btih:c761c94242082f8f45e85d5f470e9aa7ef848a55&dn=ubuntu-mate-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04.4-desktop-amd64.iso",
+          "file-size": 4518877184
+        },
+        {
+          "arch": "amd64",
+          "version": "25.10",
+          "desktop-environment": "Mate",
+          "magnet-url": "magnet:?xt=urn:btih:b91d49b1313f5aa27f2b3a9dc48af8248f40908e&dn=ubuntu-mate-25.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso",
+          "file-size": 3821662208
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.3",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:e2e8345f176d37b2530a0d4a705db9a9c49148a3&dn=xubuntu-24.04.3-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-desktop-amd64.iso",
+          "file-size": 4312426496
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.3",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:9f2ee1bd9eacf0c372aabd3c8ea959e10b82452a&dn=xubuntu-24.04.3-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.3-minimal-amd64.iso",
+          "file-size": 2837444608
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:3f5c78dcd67e54d3ce7bb31d8e77383b60142125&dn=xubuntu-24.04.4-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.4-desktop-amd64.iso",
+          "file-size": 4400175104
+        },
+        {
+          "arch": "amd64",
+          "version": "24.04.4",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:3f0926f2f4a171d847cec6824781525be9e2d4d5&dn=xubuntu-24.04.4-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04.4-minimal-amd64.iso",
+          "file-size": 2885177344
+        },
+        {
+          "arch": "amd64",
+          "version": "25.10",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:aa8a2f25763f0b165766690847bf732476490396&dn=xubuntu-25.10-desktop-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubuntu-25.10-desktop-amd64.iso",
+          "file-size": 4721451008
+        },
+        {
+          "arch": "amd64",
+          "version": "25.10",
+          "desktop-environment": "Xfce",
+          "magnet-url": "magnet:?xt=urn:btih:d18285bb53b0bcf4a611092c347802e9ac8efc0a&dn=xubuntu-25.10-minimal-amd64.iso",
+          "direct-download-url": "https://cdimage.ubuntu.com/xubuntu/releases/25.10/release/xubuntu-25.10-minimal-amd64.iso",
+          "file-size": 3123709952
+        }
+      ],
+      "trackers": [
+        "https://torrent.ubuntu.com/announce",
+        "https://ipv6.torrent.ubuntu.com/announce"
+      ]
+    }
+  ],
+  "recommended-distro-index": 11,
+  "trackers": [
+    "https://tracker.webtorrent.dev/",
+    "wss://tracker.openwebtorrent.com",
+    "https://tracker.novage.com.ua/",
+    "wss://tracker.btorrent.xyz",
+    "wss://tracker.fastcast.nz",
+    "wss://tracker.files.fm:7073/announce",
+    "udp://fosstorrents.com:6969",
+    "http://linuxtracker.org:2710/00000000000000000000000000000000/announce",
+    "http://bt1.archive.org:6969/announce",
+    "http://bt2.archive.org:6969/announce"
+  ]
+}

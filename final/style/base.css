@@ -96,14 +96,25 @@ nav.open {
 section {
   margin: 1rem;
   padding: 0.8rem;
+}
+
+section.home {
   border-left: solid 5px var(--accent1);
+}
+
+section.distro {
+  border-left: solid 5px var(--accent2);
+}
+
+section.guides {
+  border-left: solid 5px var(--accent3);
 }
 
 h1 {
   margin: 1rem;
 }
 
-/********************************************************************** MAIN ********************************************************************/
+/********************************************************************** FOOTER ********************************************************************/
 footer {
   display: flex;
   flex-direction: column;
