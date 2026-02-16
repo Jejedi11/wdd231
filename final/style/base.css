@@ -110,6 +110,31 @@ section.guides {
   border-left: solid 5px var(--accent3);
 }
 
+/********************************************************************** FORM ********************************************************************/
+section form {
+  display: block;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin: 1rem;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  border: solid 1px var(--border);
+}
+
+form button {
+  margin: 1rem;
+  border: solid 1px var(--border);
+}
+
 h1 {
   margin: 1rem;
 }
