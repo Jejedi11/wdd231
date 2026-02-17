@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="style/base-large.css">
   <!--Scripts-->
   <script defer src="scripts/header-footer.js"></script>
+  <script type="module" src="scripts/main.mjs"></script>
   <!--Typography:-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +36,7 @@
   <header>
     <a href="../index.html"><img src="images/tux.svg" alt="linux" width="75" height="75"></a>
     <p>Linux Hobby Club</p>
-    <button id="hambtn"></button>
+    <button id="hambtn" name="hambtn" aria-label="Toggle Nav menu"></button>
   </header>
   <nav id="nav">
     <a href="index.html" id="home-nav" class="active">Home</a>
@@ -45,30 +46,61 @@
   <main>
     <h1>Linux</h1>
     <section class="home">
-      <h2>Welcome</h2>
-      <p>I am a linux enthusiast who enjoys sharing and teaching others about linux.</p>
+      <h2 id="welcome">Welcome</h2>
+      <p>Welcome to a place where we all love computers! Linux is one way that we get to take control and feel closer to
+        our hardware!</p>
     </section>
     <section class="home">
       <h2>About Linux</h2>
-      <p>Linux is Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate animi quis distinctio rerum dolores
-        autem nesciunt nam aliquid praesentium, fugit itaque! Ducimus, beatae nihil laudantium reprehenderit aperiam
-        fugit quia facere!</p>
+      <p>Linux is a group of open source operating systems that use the linux kernel. Linux kernel was released on
+        September 17 1991 by Linus Torvalds. Today linux powers much of the modern world's computer architecture, though
+        not many consumer electronics.</p>
     </section>
     <section class="home">
-      <h2>Why use linux?</h2>
-      <p>There are several reasons you may want to try linux, here are a few:</p>
-      <h4>Control</h4>
-      <h4>Learn more about computers</h4>
-      <h4>Privacy</h4>
-      <h4>Performance</h4>
+      <h2>Why use Linux?</h2>
+      <p>There are several reasons you may want to try Linux, here are a few:</p>
+      <div>
+        <h3>Control</h3>
+        <p>Linux offers the user a great deal more control than a Windows or Mac machine, leading to greater
+          customization
+          and reliability. With great power comes great responsibility though, the system administrator can cause
+          significant damage if they don't know what they are doing.</p>
+      </div>
+      <div>
+        <h3>Learn more about computers</h3>
+        <p>Often settings are not hidden by a graphical interface, allowing the user to understand what is happening
+          "under the hood". Much of the software on Linux, as well as Linux is open source, meaning it can be examined
+          by
+          the user and understood.</p>
+      </div>
+      <div>
+        <h3>Privacy</h3>
+        <p>This one really depends on you as the user, but Linux can be as private as you decide, as you have control
+          over
+          what software is running on your computer.</p>
+      </div>
+      <div>
+        <h3>Performance</h3>
+        <p>Linux has lower hardware requirements and can "feel" a great deal more responsive on older systems as
+          compared
+          to other proprietary operating systems. A great example of this is if your system doesn't meet the
+          requirements
+          for Windows 11, it should be able to handle Linux no problem.</p>
+      </div>
     </section>
     <section class="home">
       <h2>What is a distribution?</h2>
+      <p>Linux is composed of many different distributions. These are all built and maintained by different groups and
+        individuals. They are usually focused on different demographics. Distributions like Linux Mint are targeted
+        towards beginners while distributions like Arch Linux are for advanced users.</p>
+      <p>Different distributions have different package managers, which are collections of software. The default tools
+        and software preinstalled on each distribution will also be different.</p>
     </section>
   </main>
   <footer>
     <span id="currentyear"></span>
     <span id="datemodified"></span>
+    <a>Javascript Video Demonstration</a>
   </footer>
 </body>
 

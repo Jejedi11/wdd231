@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="style/base-large.css">
   <!--Scripts-->
   <script defer src="scripts/header-footer.js"></script>
+  <script defer src="scripts/thanks.js"></script>
   <!--Typography:-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +31,7 @@
   <header>
     <a href="../index.html"><img src="images/tux.svg" alt="linux" width="75" height="75"></a>
     <p>Linux Hobby Club</p>
-    <button id="hambtn"></button>
+    <button id="hambtn" name="hambtn" aria-label="Toggle Nav menu"></button>
   </header>
   <nav id="nav">
     <a href="index.html" id="home-nav">Home</a>
@@ -41,7 +42,9 @@
     <h1>Guides</h1>
     <section class="guides">
       <h2>Thank you</h2>
-      <p>Your question is recorded, you should recieve an answer via email.</p>
+      <div id="results">
+        <p>Your question is recorded, you should recieve an answer via email.</p>
+      </div>
     </section>
 
   </main>

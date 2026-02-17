@@ -844,6 +844,42 @@
         "https://torrent.ubuntu.com/announce",
         "https://ipv6.torrent.ubuntu.com/announce"
       ]
+    },
+    {
+      "name": "Omarchy",
+      "full-name": "Omarchy",
+      "primary-color": "#9ECE6A",
+      "url": "https://omarchy.org/",
+      "torrent-download-page-url": "https://iso.omarchy.org/omarchy-3.3.2.iso",
+      "description": "Omarchy is an opinionated, Arch Linux-based distribution built around the Hyprland tiling window manager, created by David Heinemeier Hansson (DHH).",
+      "font-logos-icon": "fl-omarchy",
+      "recommended-version-index": 0,
+      "versions": "N/A",
+      "trackers": "N/A"
+    },
+    {
+      "name": "Gentoo Linux",
+      "full-name": "Gentoo Linux",
+      "primary-color": "#4E4372",
+      "url": "https://www.gentoo.org/",
+      "torrent-download-page-url": "https://distfiles.gentoo.org/releases/amd64/autobuilds/20260215T164556Z/livegui-amd64-20260215T164556Z.iso",
+      "description": "a versatile and fast Linux distribution geared towards developers and network professionals. Gentoo Linux has an advanced package management system called Portage.",
+      "font-logos-icon": "fl-gentoo",
+      "recommended-version-index": 0,
+      "versions": "N/A",
+      "trackers": "N/A"
+    },
+    {
+      "name": "Zorin OS",
+      "full-name": "Zorin OS",
+      "primary-color": "#15A6F0",
+      "url": "https://zorin.com/",
+      "torrent-download-page-url": "https://zorin.com/os/download/",
+      "description": "a beginner-friendly, Ubuntu-based desktop distribution focused on familiarity and polish.",
+      "font-logos-icon": "fl-zorin",
+      "recommended-version-index": 0,
+      "versions": "N/A",
+      "trackers": "N/A"
     }
   ],
   "recommended-distro-index": 11,

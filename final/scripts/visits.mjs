@@ -1,11 +1,11 @@
-export function showVisits() {
+export function hasVisited() {
   let visits = localStorage.getItem('lastVisit');
+  let welcome = document.querySelector('#welcome');
   if (visits == null) {
-    localStorage.setItem('lastVisit') = 1;
-    console.log('First Visit');
+    welcome.textContent = 'Welcome!'
+    localStorage.setItem('lastVisit', 1)
   }
   else {
-    console.log(`You have visited ${visits} times.`);
-    localStorage.setItem('lastVisit', visits++);
+    welcome.textContent = 'Welcome Back!'
   }
 }
